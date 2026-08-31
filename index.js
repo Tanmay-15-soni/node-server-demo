@@ -2,7 +2,7 @@ import express from 'express';
 const app = express();
 const PORT = process.env.PORT || 4000;
 app.get("/", (req, res) => {
-    res.send("Server is running Successfully!");
+    res.send("Hello World!");
 });
 app.get("/api", (req, res) => {
     res.json({
